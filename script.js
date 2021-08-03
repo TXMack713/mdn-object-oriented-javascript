@@ -7,6 +7,7 @@ function Person(first, last, age, gender, ...interests) {
   this.gender = gender;
   this.interests = interests;
   this.answer = '';
+
   if (this.interests.length > 2) {
     for (let i = 0; i < this.interests.length; i++) {
       if (i <= this.interests.length - 2) {
@@ -18,7 +19,7 @@ function Person(first, last, age, gender, ...interests) {
   } else if (this.interests.length == 2) {
     this.answer += interests[0] + ' and ' + interests[1];
   } else if (this.interests.length === 1) {
-    this.answer = interests[0];
+    this.answer += interests[0];
   }
 
   if (this.gender.toLowerCase() === 'm') {
