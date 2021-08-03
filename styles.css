@@ -1,0 +1,18 @@
+html {
+  block-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 16px;
+  background-color: hsl(40, 75%, 75%);
+}
